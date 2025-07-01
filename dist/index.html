@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" href="/assets/favicon-BC0ON2DH.png" />
+    <title>MM Lampadari</title>
+    <script type="module" crossorigin src="/assets/index-ChYL5jK0.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CV-X_j6P.css">
+  </head>
+  <body>
+    <header class="header">
+      <section class="header__inner container">
+        <h1 class="visually-hidden">MM Lampadari Website</h1>
+        <a
+          href="#"
+          class="header__reservation-link link"
+          data-js-reservation-modal-open-button
+        >
+          <span>AREA RISERVATA</span>
+          <span class="header__reservation-icon-wrapper">
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAANCAYAAAB7AEQGAAAKSWlDQ1BzUkdCIElFQzYxOTY2LTIuMQAASImdU3dYk/cWPt/3ZQ9WQtjwsZdsgQAiI6wIyBBZohCSAGGEEBJAxYWIClYUFRGcSFXEgtUKSJ2I4qAouGdBiohai1VcOO4f3Ke1fXrv7e371/u855zn/M55zw+AERImkeaiagA5UoU8Otgfj09IxMm9gAIVSOAEIBDmy8JnBcUAAPADeXh+dLA//AGvbwACAHDVLiQSx+H/g7pQJlcAIJEA4CIS5wsBkFIAyC5UyBQAyBgAsFOzZAoAlAAAbHl8QiIAqg0A7PRJPgUA2KmT3BcA2KIcqQgAjQEAmShHJAJAuwBgVYFSLALAwgCgrEAiLgTArgGAWbYyRwKAvQUAdo5YkA9AYACAmUIszAAgOAIAQx4TzQMgTAOgMNK/4KlfcIW4SAEAwMuVzZdL0jMUuJXQGnfy8ODiIeLCbLFCYRcpEGYJ5CKcl5sjE0jnA0zODAAAGvnRwf44P5Dn5uTh5mbnbO/0xaL+a/BvIj4h8d/+vIwCBAAQTs/v2l/l5dYDcMcBsHW/a6lbANpWAGjf+V0z2wmgWgrQevmLeTj8QB6eoVDIPB0cCgsL7SViob0w44s+/zPhb+CLfvb8QB7+23rwAHGaQJmtwKOD/XFhbnauUo7nywRCMW735yP+x4V//Y4p0eI0sVwsFYrxWIm4UCJNx3m5UpFEIcmV4hLpfzLxH5b9CZN3DQCshk/ATrYHtctswH7uAQKLDljSdgBAfvMtjBoLkQAQZzQyefcAAJO/+Y9AKwEAzZek4wAAvOgYXKiUF0zGCAAARKCBKrBBBwzBFKzADpzBHbzAFwJhBkRADCTAPBBCBuSAHAqhGJZBGVTAOtgEtbADGqARmuEQtMExOA3n4BJcgetwFwZgGJ7CGLyGCQRByAgTYSE6iBFijtgizggXmY4EImFINJKApCDpiBRRIsXIcqQCqUJqkV1II/ItchQ5jVxA+pDbyCAyivyKvEcxlIGyUQPUAnVAuagfGorGoHPRdDQPXYCWomvRGrQePYC2oqfRS+h1dAB9io5jgNExDmaM2WFcjIdFYIlYGibHFmPlWDVWjzVjHVg3dhUbwJ5h7wgkAouAE+wIXoQQwmyCkJBHWExYQ6gl7CO0EroIVwmDhDHCJyKTqE+0JXoS+cR4YjqxkFhGrCbuIR4hniVeJw4TX5NIJA7JkuROCiElkDJJC0lrSNtILaRTpD7SEGmcTCbrkG3J3uQIsoCsIJeRt5APkE+S+8nD5LcUOsWI4kwJoiRSpJQSSjVlP+UEpZ8yQpmgqlHNqZ7UCKqIOp9aSW2gdlAvU4epEzR1miXNmxZDy6Qto9XQmmlnafdoL+l0ugndgx5Fl9CX0mvoB+nn6YP0dwwNhg2Dx0hiKBlrGXsZpxi3GS+ZTKYF05eZyFQw1zIbmWeYD5hvVVgq9ip8FZHKEpU6lVaVfpXnqlRVc1U/1XmqC1SrVQ+rXlZ9pkZVs1DjqQnUFqvVqR1Vu6k2rs5Sd1KPUM9RX6O+X/2C+mMNsoaFRqCGSKNUY7fGGY0hFsYyZfFYQtZyVgPrLGuYTWJbsvnsTHYF+xt2L3tMU0NzqmasZpFmneZxzQEOxrHg8DnZnErOIc4NznstAy0/LbHWaq1mrX6tN9p62r7aYu1y7Rbt69rvdXCdQJ0snfU6bTr3dQm6NrpRuoW623XP6j7TY+t56Qn1yvUO6d3RR/Vt9KP1F+rv1u/RHzcwNAg2kBlsMThj8MyQY+hrmGm40fCE4agRy2i6kcRoo9FJoye4Ju6HZ+M1eBc+ZqxvHGKsNN5l3Gs8YWJpMtukxKTF5L4pzZRrmma60bTTdMzMyCzcrNisyeyOOdWca55hvtm82/yNhaVFnMVKizaLx5balnzLBZZNlvesmFY+VnlW9VbXrEnWXOss623WV2xQG1ebDJs6m8u2qK2brcR2m23fFOIUjynSKfVTbtox7PzsCuya7AbtOfZh9iX2bfbPHcwcEh3WO3Q7fHJ0dcx2bHC866ThNMOpxKnD6VdnG2ehc53zNRemS5DLEpd2lxdTbaeKp26fesuV5RruutK10/Wjm7ub3K3ZbdTdzD3Ffav7TS6bG8ldwz3vQfTw91jicczjnaebp8LzkOcvXnZeWV77vR5Ps5wmntYwbcjbxFvgvct7YDo+PWX6zukDPsY+Ap96n4e+pr4i3z2+I37Wfpl+B/ye+zv6y/2P+L/hefIW8U4FYAHBAeUBvYEagbMDawMfBJkEpQc1BY0FuwYvDD4VQgwJDVkfcpNvwBfyG/ljM9xnLJrRFcoInRVaG/owzCZMHtYRjobPCN8Qfm+m+UzpzLYIiOBHbIi4H2kZmRf5fRQpKjKqLupRtFN0cXT3LNas5Fn7Z72O8Y+pjLk722q2cnZnrGpsUmxj7Ju4gLiquIF4h/hF8ZcSdBMkCe2J5MTYxD2J43MC52yaM5zkmlSWdGOu5dyiuRfm6c7Lnnc8WTVZkHw4hZgSl7I/5YMgQlAvGE/lp25NHRPyhJuFT0W+oo2iUbG3uEo8kuadVpX2ON07fUP6aIZPRnXGMwlPUit5kRmSuSPzTVZE1t6sz9lx2S05lJyUnKNSDWmWtCvXMLcot09mKyuTDeR55m3KG5OHyvfkI/lz89sVbIVM0aO0Uq5QDhZML6greFsYW3i4SL1IWtQz32b+6vkjC4IWfL2QsFC4sLPYuHhZ8eAiv0W7FiOLUxd3LjFdUrpkeGnw0n3LaMuylv1Q4lhSVfJqedzyjlKD0qWlQyuCVzSVqZTJy26u9Fq5YxVhlWRV72qX1VtWfyoXlV+scKyorviwRrjm4ldOX9V89Xlt2treSrfK7etI66Trbqz3Wb+vSr1qQdXQhvANrRvxjeUbX21K3nShemr1js20zcrNAzVhNe1bzLas2/KhNqP2ep1/XctW/a2rt77ZJtrWv913e/MOgx0VO97vlOy8tSt4V2u9RX31btLugt2PGmIbur/mft24R3dPxZ6Pe6V7B/ZF7+tqdG9s3K+/v7IJbVI2jR5IOnDlm4Bv2pvtmne1cFoqDsJB5cEn36Z8e+NQ6KHOw9zDzd+Zf7f1COtIeSvSOr91rC2jbaA9ob3v6IyjnR1eHUe+t/9+7zHjY3XHNY9XnqCdKD3x+eSCk+OnZKeenU4/PdSZ3Hn3TPyZa11RXb1nQ8+ePxd07ky3X/fJ897nj13wvHD0Ivdi2yW3S609rj1HfnD94UivW2/rZffL7Vc8rnT0Tes70e/Tf/pqwNVz1/jXLl2feb3vxuwbt24m3Ry4Jbr1+Hb27Rd3Cu5M3F16j3iv/L7a/eoH+g/qf7T+sWXAbeD4YMBgz8NZD+8OCYee/pT/04fh0kfMR9UjRiONj50fHxsNGr3yZM6T4aeypxPPyn5W/3nrc6vn3/3i+0vPWPzY8Av5i8+/rnmp83Lvq6mvOscjxx+8znk98ab8rc7bfe+477rfx70fmSj8QP5Q89H6Y8en0E/3Pud8/vwv94Tz+y1HOM8AAAAJcEhZcwAACxMAAAsTAQCanBgAAACWSURBVBiVfY6xCQJREERnvyUIYhlnYqC2cJlwPViEiU0J5hdeAWpiflyisc9khf2LOMkwj7ewkgfogDvw8u4UA7TADWh8N8AVaKPUA9t0uAP6CCbAkmTAJEnFWTEzouS7RGnQ7wySZMBZ0tLhW9IoaRHEh6iz93+OEWZp7tIqwqI6J+9DhFnaeK//Sd89qygwpr8uaT8/f+CuxP3zHzMAAAAASUVORK5CYII="
+              alt="lock presentational image"
+              class="header__reservation-icon"
+              width="9"
+              height="13"
+            />
+          </span>
+        </a>
+        <div class="header__navigation">
+          <div class="header__logo">
+            <a href="#" class="header__logo-image-link">
+              <img
+                class="header__logo-image"
+                src="/assets/logo-CmqoGQti.png"
+                alt="mm lamadari logo"
+                width="283"
+                height="83"
+              />
+            </a>
+          </div>
+          <nav class="header__menu">
+            <ul class="header__menu-list">
+              <li class="header__menu-item">
+                <a href="#" class="header__menu-link link is-active">HOME</a>
+              </li>
+              <li class="header__menu-item">
+                <a href="#" class="header__menu-link link">AZIENDA</a>
+                <ul class="header__sub-menu-list">
+                  <li class="header__sub-menu-item">
+                    <a href="#" class="header__sub-menu-link link">STORIA</a>
+                  </li>
+                  <li class="header__sub-menu-item">
+                    <a href="#" class="header__sub-menu-link link">MM DESIGN</a>
+                  </li>
+                  <li class="header__sub-menu-item">
+                    <a href="#" class="header__sub-menu-link link">DESIGNER</a>
+                  </li>
+                  <li class="header__sub-menu-item">
+                    <a href="#" class="header__sub-menu-link link"
+                      >CERTIFICAZIONI</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="header__menu-item">
+                <a href="#" class="header__menu-link link">COLLEZIONI</a>
+              </li>
+              <li class="header__menu-item">
+                <a href="#" class="header__menu-link link">NEWS</a>
+              </li>
+              <li class="header__menu-item">
+                <a href="#" class="header__menu-link link">CONTATTI</a>
+              </li>
+            </ul>
+          </nav>
+          <button
+            class="header__dropmenu-button button visible-mobile"
+            data-js-dropmenu-button
+          >
+            <span class="visually-hidden">Open navigation menu</span>
+          </button>
+          <nav class="header__dropmenu visible-mobile" data-js-dropmenu>
+            <ul class="header__dropmenu-list">
+              <li class="header__dropmenu-item">
+                <a href="#" class="header__dropmenu-link link is-active">
+                  HOME
+                </a>
+              </li>
+              <li class="header__dropmenu-item">
+                <a
+                  href="#"
+                  class="header__dropmenu-link link"
+                  data-js-sub-dropmenu-link
+                >
+                  AZIENDA
+                </a>
+                <ul class="header__sub-dropmenu-list" data-js-sub-dropmenu>
+                  <li class="header__sub-dropmenu-item">
+                    <a href="#" class="header__sub-dropmenu-link link">
+                      STORIA
+                    </a>
+                  </li>
+                  <li class="header__sub-dropmenu-item">
+                    <a href="#" class="header__sub-dropmenu-link link">
+                      MM DESIGN
+                    </a>
+                  </li>
+                  <li class="header__sub-dropmenu-item">
+                    <a href="#" class="header__sub-dropmenu-link link">
+                      DESIGNER
+                    </a>
+                  </li>
+                  <li class="header__sub-dropmenu-item">
+                    <a href="#" class="header__sub-dropmenu-link link">
+                      CERTIFICAZIONI
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="header__dropmenu-item">
+                <a href="#" class="header__dropmenu-link link">COLLEZIONI</a>
+              </li>
+              <li class="header__dropmenu-item">
+                <a href="#" class="header__dropmenu-link link">NEWS</a>
+              </li>
+              <li class="header__dropmenu-item">
+                <a href="#" class="header__dropmenu-link link">CONTATTI</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+      <section class="header__reservation-modal" data-js-reservation-modal>
+        <button
+          class="reservation-modal__close-button button"
+          data-js-reservation-modal-close-button
+        >
+          <span class="visually-hidden">Close reservation modal window</span>
+        </button>
+        <div class="reservation-modal__body">
+          <h2 class="reservation-modal__title">AREA RISERVATA</h2>
+          <div class="reservation-modal__auth">
+            <form class="reservation-modal__form">
+              <h3 class="reservation-modal__title form__title">ACCEDI</h3>
+              <input
+                class="reservation-modal__input form__input"
+                type="email"
+                name="login-email"
+                placeholder="E-mail"
+                required
+              />
+              <input
+                class="reservation-modal__input form__input"
+                type="password"
+                name="login-password"
+                placeholder="Password"
+                required
+              />
+              <button
+                class="reservation-modal__button form__button"
+                type="submit"
+              >
+                ACCEDI
+              </button>
+              <a class="reservation-modal__link form__link link" href="#">
+                Password dimenticata
+              </a>
+            </form>
+            <form class="reservation-modal__form">
+              <h3 class="reservation-modal__title form__title">REGISTRATI</h3>
+              <input
+                class="reservation-modal__input form__input"
+                name="firstname"
+                placeholder="Nome"
+                required
+              />
+              <input
+                class="reservation-modal__input form__input"
+                name="secondname"
+                placeholder="Cognome"
+                required
+              />
+              <input
+                class="reservation-modal__input form__input"
+                type="email"
+                name="registration-login"
+                placeholder="E-mail"
+                required
+              />
+              <input
+                class="reservation-modal__input form__input"
+                type="password"
+                name="registration-password"
+                placeholder="Password"
+                required
+              />
+              <label
+                class="reservation-modal__checkbox-label form__checkbox-label"
+              >
+                Acconsento al trattamento dei dati
+                <input
+                  class="reservation-modal__checkbox form__checkbox"
+                  type="checkbox"
+                  name="data-consent"
+                  required
+                />
+              </label>
+              <label
+                class="reservation-modal__checkbox-label form__checkbox-label"
+              >
+                Mi iscrivo alla Newsletter
+                <input
+                  class="reservation-modal__checkbox form__checkbox"
+                  type="checkbox"
+                  name="news-subscribtion"
+                />
+              </label>
+              <button
+                class="reservation-modal__button form__button"
+                type="submit"
+              >
+                ISCRIVITI
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <main class="content">
+      <section class="swiper slider">
+        <div class="swiper-wrapper slider__wrapper">
+          <div class="swiper-slide slider__item"></div>
+          <div class="swiper-slide slider__item"></div>
+          <div class="swiper-slide slider__item"></div>
+        </div>
+        <div class="swiper-pagination slider__pagination"></div>
+        <section class="info__box container" data-js-info-box>
+          <div class="info__box-body">
+            <button class="info__box-button" data-js-info-box-button>
+              <span class="visually-hidden">
+                Open information accordion block
+              </span>
+              <img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAARCAMAAAB3l3UEAAAAAXNSR0IB2cksfwAAAMBQTFRFAAAAIiAgIx8gIx8hAAAAIx8gIx8gJCAgIyMjIiAgIx8fIx8gIh4eJB8fIx8gIx8gJCAgAAAAHh4eIx8gIx8gICAgAAAAIiAgIx8gIx8gJCEhISEhIh8gIx8gIx8hIiIiJB8hIh4gJhwcIx8hIx8gIx8fIx4eIx8gJCAgQABAIx8fJycnIx4gIx8hIyMjIiAgIx8gIx8gJB4hJSAgIx8gIx8hMzMzKhUqJB8hIx8gJCAgJB8hIhwiIx8gLhcXJB8gTtSMjgAAAEB0Uk5TAKr3fAL5/7oWafvnQznh/YADEa+9GAFw+upGNt7+hA+swRts7Ekz3IgE2w2oxB1o+O5NMNiMBQykxz9kLdULnueEW7sAAADqSURBVHichZDnEoJADIQj6qpYEDsq9t6wd+X938q1jKMCsj/usnvf5DKRgBIMiZ9CQSUgYSAS9QGjESAsMRWIJ/6CiTigxkSSKUBL656cntaAVPJeZrIAcnkPMJ/jazbzNIViCTDKrmDZAErFwttXqoBZc06g10ygWvmM6g3+0Wz9gK0m00b9J21zXZ3uV9TtcDlt50S9PhsMhm8/HNCPem7Djyd8ms5ebjalm4zdQMqaA4vlo1wugLnlwVGrNRtttrLd8F6vvEGR3Z7I4Xjgud/9A6mTgruUkw9HnS8EL2d/UORqm/bVGd8AmOERJ/reyVEAAAAASUVORK5CYII="
+                alt="Arrow image for accordion control"
+                class="info__box-button-image"
+              />
+            </button>
+            <div class="info__box-item item--accent">
+              <h3 class="info__box-title">Stai pensando ad un progetto?</h3>
+              <p class="info__box-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor dolore
+              </p>
+              <a href="#" class="info__box-link link">Approfondisci</a>
+            </div>
+            <div class="info__box-item item--light">
+              <h3 class="info__box-title">Vi aspettiamo alla fiera Euroluce</h3>
+              <p class="info__box-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor dolore
+              </p>
+              <a href="#" class="info__box-link link">Approfondisci</a>
+            </div>
+            <div class="info__box-item item--dark">
+              <h3 class="info__box-title">Scopri la nuova collezione</h3>
+              <p class="info__box-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor dolore
+              </p>
+              <a href="#" class="info__box-link link">Approfondisci</a>
+            </div>
+          </div>
+        </section>
+        <section class="main-description">
+          <h2 class="main-description__title">LAMPADARI CONTEMPORANEI</h2>
+          <div class="main-description__text">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor dolore
+            </p>
+          </div>
+        </section>
+      </section>
+
+      <section class="articles container">
+        <div class="articles__body">
+          <article class="articles__item">
+            <h3 class="article__title">LAMPADARI MADE IN ITALY</h3>
+            <div class="article__description">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea
+              </p>
+            </div>
+          </article>
+          <article class="articles__item">
+            <h3 class="article__title">LAMPADARI ARTIGIANALI</h3>
+            <div class="article__description">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea
+              </p>
+            </div>
+          </article>
+          <article class="articles__item">
+            <h3 class="article__title">
+              <span class="article__title-digits broken-digits">45</span>
+              ANNI DI ESPERIENZA
+            </h3>
+            <div class="article__description">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea
+              </p>
+            </div>
+          </article>
+          <form class="articles__item article__form">
+            <h3 class="article__title">NEWSLETTER</h3>
+            <input
+              class="article__input form__input"
+              type="email"
+              name="login-email"
+              placeholder="E-mail"
+              required
+            />
+            <input
+              class="article__input form__input"
+              type="password"
+              name="login-password"
+              placeholder="Password"
+              required
+            />
+            <label class="article__checkbox-label form__checkbox-label">
+              Acconsento al trattamento dei dati
+              <input
+                class="article__checkbox form__checkbox"
+                type="checkbox"
+                name="article-data-consent"
+                required
+              />
+            </label>
+            <button class="article__button form__button" type="submit">
+              ISCRIVITI
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer container">
+      <section class="footer__navigation">
+        <div class="footer__contacts">
+          <address class="footer__contacts-body">
+            <p>MMLAMPADARI srl</p>
+            <p>Via Feltrina 00</p>
+            <p>31111 Pederobba (TV)</p>
+            <p>0423.123456</p>
+            <p>
+              <a class="link" href="mailto:info@mmlampadari.mm">
+                info@mmlampadari.mm
+              </a>
+            </p>
+            <p>P.IVA 04123456789</p>
+          </address>
+        </div>
+        <div class="footer__socials socials">
+          <ul class="socials__list">
+            <li class="socials__item">
+              <a href="/" class="socials__link link">
+                <span class="visually-hidden">Facebook</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  version="1.1"
+                  x="0px"
+                  y="0px"
+                  width="13px"
+                  height="18px"
+                  viewBox="0 0 90 90"
+                  xml:space="preserve"
+                >
+                  <g>
+                    <g>
+                      <path
+                        id="Facebook__x28_alt_x29_"
+                        d="M90,15.001C90,7.119,82.884,0,75,0H15C7.116,0,0,7.119,0,15.001v59.998   C0,82.881,7.116,90,15.001,90H45V56H34V41h11v-5.844C45,25.077,52.568,16,61.875,16H74v15H61.875C60.548,31,59,32.611,59,35.024V41   h15v15H59v34h16c7.884,0,15-7.119,15-15.001V15.001z"
+                        data-original="#000000"
+                        class="active-path"
+                        data-old_color="#000000"
+                        fill="#FFFFFF"
+                      />
+                    </g>
+                  </g>
+                </svg>
+              </a>
+            </li>
+            <li class="socials__item">
+              <a href="/" class="socials__link link">
+                <span class="visually-hidden">Instagram</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  version="1.1"
+                  x="0px"
+                  y="0px"
+                  width="13px"
+                  height="18px"
+                  viewBox="0 0 97.395 97.395"
+                  xml:space="preserve"
+                >
+                  <g>
+                    <g>
+                      <path
+                        d="M12.501,0h72.393c6.875,0,12.5,5.09,12.5,12.5v72.395c0,7.41-5.625,12.5-12.5,12.5H12.501C5.624,97.395,0,92.305,0,84.895   V12.5C0,5.09,5.624,0,12.501,0L12.501,0z M70.948,10.821c-2.412,0-4.383,1.972-4.383,4.385v10.495c0,2.412,1.971,4.385,4.383,4.385   h11.008c2.412,0,4.385-1.973,4.385-4.385V15.206c0-2.413-1.973-4.385-4.385-4.385H70.948L70.948,10.821z M86.387,41.188h-8.572   c0.811,2.648,1.25,5.453,1.25,8.355c0,16.2-13.556,29.332-30.275,29.332c-16.718,0-30.272-13.132-30.272-29.332   c0-2.904,0.438-5.708,1.25-8.355h-8.945v41.141c0,2.129,1.742,3.872,3.872,3.872h67.822c2.13,0,3.872-1.742,3.872-3.872V41.188   H86.387z M48.789,29.533c-10.802,0-19.56,8.485-19.56,18.953c0,10.468,8.758,18.953,19.56,18.953   c10.803,0,19.562-8.485,19.562-18.953C68.351,38.018,59.593,29.533,48.789,29.533z"
+                        data-original="#000000"
+                        class="active-path"
+                        data-old_color="#000000"
+                        fill="#FFFFFF"
+                      />
+                    </g>
+                  </g>
+                </svg>
+              </a>
+            </li>
+            <li class="socials__item">
+              <a href="/" class="socials__link link">
+                <span class="visually-hidden">Pinterest</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  version="1.1"
+                  id="Capa_1"
+                  x="0px"
+                  y="0px"
+                  width="13px"
+                  height="18px"
+                  viewBox="0 0 97.672 97.672"
+                  xml:space="preserve"
+                >
+                  <g transform="matrix(1 0 0 1 0 0)">
+                    <g>
+                      <path
+                        d="M51.125,0C24.469,0,11.029,19.11,11.029,35.047c0,9.649,3.653,18.232,11.487,21.432c1.286,0.525,2.438,0.019,2.812-1.403   c0.258-0.985,0.871-3.468,1.144-4.503c0.376-1.407,0.229-1.9-0.807-3.126c-2.259-2.665-3.703-6.115-3.703-11.002   c0-14.178,10.608-26.87,27.624-26.87c15.064,0,23.342,9.206,23.342,21.5c0,16.176-7.159,29.828-17.786,29.828   c-5.87,0-10.262-4.854-8.854-10.807c1.686-7.107,4.951-14.778,4.951-19.907c0-4.592-2.463-8.423-7.565-8.423   c-6,0-10.819,6.207-10.819,14.521c0,5.296,1.789,8.878,1.789,8.878s-6.141,26.015-7.215,30.571   c-2.145,9.072-0.322,20.195-0.168,21.318c0.089,0.666,0.944,0.824,1.332,0.322c0.555-0.723,7.7-9.544,10.129-18.359   c0.687-2.496,3.944-15.42,3.944-15.42c1.95,3.717,7.647,6.992,13.706,6.992c18.034,0,30.271-16.441,30.271-38.45   C86.644,15.498,72.547,0,51.125,0z"
+                        data-original="#000000"
+                        class="active-path"
+                        data-old_color="#000000"
+                        fill="#FFFFFF"
+                      />
+                    </g>
+                  </g>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__languages languages">
+          <ul class="languages__list">
+            <li class="languages__item">
+              <a href="##" class="languages__link link">ITA</a>
+            </li>
+            <li class="languages__item">
+              <a href="##" class="languages__link link">ENG</a>
+            </li>
+            <li class="languages__item">
+              <a href="##" class="languages__link link">DEU</a>
+            </li>
+            <li class="languages__item">
+              <a href="##" class="languages__link link">PYC</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </footer>
+
+    <div
+      class="reservation-modal__overlay"
+      data-js-reservation-modal-overlay
+    ></div>
+
+  </body>
+</html>
