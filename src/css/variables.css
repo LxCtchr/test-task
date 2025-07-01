@@ -1,0 +1,15 @@
+:root {
+  --color-dark: #353436;
+  --color-accent: #e2d1a6;
+  --color-light: #ffffff;
+  --color-light-alt: #f8f8f7;
+  --color-gray: #b5b4b4;
+  --color-dark-alt: #000000;
+
+  --container-width: 1200px;
+  --container-padding-x: 20px;
+
+  --font-family-base: "Open Sans", sans-serif;
+
+  --transition-duration: 0.2s;
+}

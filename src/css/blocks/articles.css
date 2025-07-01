@@ -1,0 +1,44 @@
+.articles {
+  margin-block-end: 20px;
+}
+
+.articles__body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 65px;
+  row-gap: 34px;
+}
+
+.articles__item {
+  display: flex;
+  flex-direction: column;
+  max-width: 190px;
+}
+
+.article__title {
+  font-family: "Playfair Display";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  margin-block-end: 18px;
+}
+
+.article__title-digits {
+  font-family: "Times New Roman', Times, serif";
+}
+
+.article__description {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 18px;
+  color: var(--color-gray);
+}
+
+.article__input {
+  margin-block-end: 10px;
+}
+
+.article__checkbox-label {
+  margin-block-end: 10px;
+}

@@ -1,0 +1,15 @@
+@import "normalize.css";
+@import "fonts.css";
+@import "variables.css";
+@import "utils.css";
+@import "globals.css";
+
+@import "blocks/button.css";
+@import "blocks/header.css";
+@import "blocks/form.css";
+@import "blocks/reservation-modal.css";
+@import "blocks/slider.css";
+@import "blocks/info-box.css";
+@import "blocks/description.css";
+@import "blocks/articles.css";
+@import "blocks/footer.css";

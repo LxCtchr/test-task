@@ -1,0 +1,53 @@
+.form__title {
+  font-family: "Playfair Display";
+  font-weight: 700;
+}
+
+.form__input {
+  border: none;
+  padding: 6px 1px 5px 13px;
+}
+
+.form__input::placeholder {
+  color: var(--color-gray);
+}
+
+.form__checkbox-label {
+  display: inline-flex;
+  font-size: 10px;
+  color: var(--color-gray);
+  column-gap: 7px;
+}
+
+.form__checkbox {
+  order: -1;
+}
+
+.form__button {
+  background-color: var(--color-dark-alt);
+  color: var(--color-light);
+  border: none;
+  font-size: 18px;
+  line-height: 1;
+  padding-block: 7px;
+}
+
+@media (hover: hover) {
+  .form__button:hover {
+    background-color: var(--color-accent);
+  }
+  .form__button:active {
+    opacity: 0.7;
+  }
+}
+
+@media (hover: none) {
+  .form__button:active {
+    background-color: var(--color-accent);
+  }
+}
+
+.form__link {
+  font-size: 10px;
+  color: var(--color-gray);
+}

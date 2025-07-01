@@ -1,0 +1,115 @@
+.header__reservation-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 596px;
+  max-height: 90vh;
+  overflow-y: auto;
+  background: var(--color-dark);
+  color: var(--color-light);
+  z-index: 101;
+  padding: 9px 76px 25px;
+  display: none;
+}
+
+.reservation-modal__overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  opacity: 0.6;
+  z-index: 100;
+  display: none;
+}
+
+.header__reservation-modal.open,
+.reservation-modal__overlay.open {
+  display: block;
+}
+
+.reservation-modal__close-button {
+  position: absolute;
+  top: 11px;
+  right: 17px;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  width: 32px;
+  height: 26px;
+  padding: 0;
+}
+
+.reservation-modal__close-button::after,
+.reservation-modal__close-button::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  width: 100%;
+  height: 2px;
+  background-color: var(--color-light);
+  border-radius: 5px;
+}
+
+.reservation-modal__close-button::before {
+  rotate: 45deg;
+}
+.reservation-modal__close-button::after {
+  rotate: -45deg;
+}
+
+.reservation-modal__title {
+  text-align: center;
+  font-size: 24px;
+  line-height: 1;
+  font-family: "Playfair Display";
+  font-weight: 700;
+  margin: 0 0 22px 0;
+}
+
+.reservation-modal__auth {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 72px;
+}
+
+@media (max-width: 768px) {
+  .reservation-modal__auth {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 0;
+    row-gap: 22px;
+  }
+}
+
+.reservation-modal__form {
+  display: flex;
+  flex-direction: column;
+  max-width: 184px;
+  justify-self: center;
+}
+
+.reservation-modal__title {
+  font-size: 18px;
+  margin-block-end: 14px;
+}
+
+.reservation-modal__input {
+  margin-block-end: 8px;
+}
+
+.reservation-modal__input:last-of-type {
+  margin-block-end: 14px;
+}
+
+.reservation-modal__checkbox-label {
+  margin-block-end: 14px;
+}
+
+.reservation-modal__link {
+  margin-block-start: 11px;
+}

@@ -1,0 +1,66 @@
+.main-description {
+  position: absolute;
+  right: 0;
+  top: calc(50% - 13px);
+  transform: translate(0, -50%);
+  background-color: var(--color-light-alt);
+  padding: 15px 28px;
+  color: var(--color-dark-alt);
+  z-index: 99;
+  max-width: 531px;
+}
+
+.main-description__title {
+  font-family: "Playfair Display";
+  font-weight: 700;
+  font-style: italic;
+  font-size: 30px;
+  margin-block-end: 21px;
+}
+
+.main-description__text {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+@media (max-width: 1024px) {
+  .main-description__title {
+    margin-block-end: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-description__title {
+    font-size: 24px;
+    margin-block-end: 5px;
+  }
+
+  .main-description__text {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-description__title {
+    font-size: 20px;
+    margin-block-end: 2px;
+  }
+
+  .main-description__text {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+@media (max-width: 390px) {
+  .main-description__title {
+    font-size: 16px;
+    margin-block-end: 2px;
+  }
+
+  .main-description__text {
+    font-size: 12px;
+    line-height: 14px;
+  }
+}
