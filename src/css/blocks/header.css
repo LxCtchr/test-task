@@ -190,21 +190,9 @@
     row-gap: 10px;
   }
 
-  .open-sub-dropmenu {
-    margin-block-start: 10px;
-  }
-
   .header__sub-dropmenu-link {
     font-size: 12px;
     padding: 5px;
-  }
-
-  summary {
-    user-select: none;
-  }
-
-  summary a {
-    pointer-events: none;
   }
 }
 
@@ -228,4 +216,3 @@
     }
   }
 }
-
