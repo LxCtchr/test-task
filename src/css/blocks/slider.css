@@ -19,7 +19,7 @@
   width: 100%;
   min-height: 670px;
   background-color: inherit;
-  background: url(../assets/slide.jpg) center/cover no-repeat;
+  background: url("../../assets/slide.jpg") center/cover no-repeat;
 }
 
 @media (max-width: 1024px) {
