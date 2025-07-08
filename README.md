@@ -1,5 +1,7 @@
 ## Тестовое задание
-HTML/CSS/JS. Сборка на Vite
+HTML/CSS/JS. Сборка на Vite 
+
+GitHub Pages: https://lxctchr.github.io/test-task/
 
 ## Установка
 Установите зависимости:
