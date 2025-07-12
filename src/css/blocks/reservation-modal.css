@@ -32,14 +32,14 @@
 
 .reservation-modal__close-button {
   position: absolute;
-  top: 11px;
-  right: 17px;
+  top: 6px;
+  right: 10px;
   background: transparent;
   border: none;
   border-radius: 0;
-  width: 32px;
-  height: 26px;
-  padding: 0;
+  width: 30px;
+  aspect-ratio: 1;
+  padding: 15px;
 }
 
 .reservation-modal__close-button::after,
