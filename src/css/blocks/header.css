@@ -187,7 +187,10 @@
     padding-inline-start: 10px;
     display: flex;
     flex-direction: column;
-    row-gap: 10px;
+  }
+
+  .header__sub-dropmenu-item:not(:last-of-type) {
+    margin-block-end: 10px;
   }
 
   .open-sub-dropmenu {

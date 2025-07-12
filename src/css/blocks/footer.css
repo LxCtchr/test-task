@@ -80,6 +80,10 @@
     row-gap: 20px;
   }
 
+  .footer__contacts-body {
+    justify-content: center;
+  }
+
   .footer__socials {
     justify-self: center;
   }
