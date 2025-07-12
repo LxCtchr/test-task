@@ -3,11 +3,11 @@
 }
 
 .articles__body {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 190px);
   column-gap: 65px;
   row-gap: 34px;
+  justify-content: center;
 }
 
 .articles__item {

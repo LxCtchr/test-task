@@ -69,6 +69,10 @@
 }
 
 @media (max-width: 480px) {
+  .footer__contacts-body {
+    justify-content: center;
+  }
+
   .footer__navigation {
     display: grid;
     grid-template-columns: 1fr;
